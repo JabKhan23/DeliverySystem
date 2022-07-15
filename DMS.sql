@@ -51,12 +51,12 @@ SELECT * FROM Drivers;
 
 INSERT INTO Orders (order_id, street_name, street_postcode, order_items) 
 VALUES
-(1, 'Balham hill', 'SW12 9DJ', 'AC unit'),
-(2, 'Atkins road', 'SW12 0AF', 'Frdige'),
-(3, 'Cavendish road', 'SW12 0BT', 'Printer'),
-(4, 'Alderbrook road', 'SW12 8AA', 'Speaker'),
-(5, 'Lysias road', 'SW12 8BP','Microphone'),
-(6, 'Blandfield road', 'SW12 8BQ', 'Headphones'),
+(1, '3 Teck close', 'TW7 6TL', 'AC unit'),
+(2, 'Worton way', 'TW7 4AT', 'Frdige'),
+(3, 'Spencer road', 'TW7 4BW', 'Printer'),
+(4, 'Crawford close', 'TW7 4DP', 'Speaker'),
+(5, 'Clifton road', 'TW7 4FH','Microphone'),
+(6, 'Star road', 'TW7 4HF', 'Headphones'),
 (7, 'Tantallon road', 'SW12 8DF', 'Mouse'),
 (8, 'Liberty mews', 'SW12 8EE', 'Keyboard'),
 (9, 'Hunter close', 'SW12 8EQ', 'Monitor'),
