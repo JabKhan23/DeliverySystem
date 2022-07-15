@@ -1,0 +1,13 @@
+import mysql.connector
+
+mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="root"
+    )
+mycursor = mydb.cursor()
+mycursor.execute("USE deliverysystem;")
+
+mycursor.execute("SHOW TABLES;")
+data=mycursor.fetchall()
+print(data)
